@@ -1,6 +1,9 @@
 # VideoCompress
 A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **This bot works for all!** No need to define each user IDs to use bot. Also works in Group.
 
+### Logger Mode:
+For Logger Mode use [Beta Branch](https://github.com/AbirHasan2005/VideoCompress/tree/beta). In Logger Mode Bot will send it's Live Status to your Telegram Logs Channel! For more Help to Deploy that ask in [Support Group](https://t.me/linux_repo).
+
 ### Demo Bot:
 <a href="https://t.me/VidCom_Robot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
@@ -17,8 +20,11 @@ A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **
 * `API_HASH` - Get this from my.telegram.org
 * `AUTH_USERS` - Put your ID & other Sudo Users IDs. Separate with **Space**. Just for using ***Admin Commands***.
 
-### Logger Mode:
-For Logger Mode use [beta branch](https://github.com/AbirHasan2005/VideoCompress/tree/beta). In Logger Mode Bot will send it's Live Status to your Telegram Logs Channel! For more Help to Deploy that ask in [Support Group](https://t.me/linux_repo).
+### Admin Commands:
+```
+log - Bot Will Send it's Logs File.
+cancel - Bot will Cancel Last Process.
+```
 
 ## Follow on:
 <p align="left">
