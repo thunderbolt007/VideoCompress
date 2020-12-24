@@ -50,11 +50,10 @@ async def button(bot, update: CallbackQuery):
                         delete_downloads()
                     try:
                         await bot.delete_messages(update.message.chat.id, statusMsg["message"])
-			#await bot.send_message(update.message.chat.id, "Process Cancelled!") # Testing ... If get any error than Lock it!
                     except:
                         pass
                     try:
-                        await update.message.edit_text("🚦🚦 Process Stopped 🚦🚦")
+                        await update.message.edit_text("🚦🚦 Last Process Stopped 🚦🚦")
                     except:
                         pass
             else:
