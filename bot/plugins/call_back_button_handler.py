@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
+# (c) Shrimadhav U K | gautamajay52 | @AbirHasan2005
 
 # the logging things
 
@@ -50,10 +50,11 @@ async def button(bot, update: CallbackQuery):
                         delete_downloads()
                     try:
                         await bot.delete_messages(update.message.chat.id, statusMsg["message"])
+			#await bot.send_message(update.message.chat.id, "Process Cancelled!") # Testing ... If get any error than Lock it!
                     except:
                         pass
                     try:
-                        await update.message.edit_text("🚦🚦 Stopped 🚦🚦")
+                        await update.message.edit_text("🚦🚦 Process Stopped 🚦🚦")
                     except:
                         pass
             else:
@@ -63,7 +64,7 @@ async def button(bot, update: CallbackQuery):
                     pass
         elif cb_data == "fuckoff":
             try:
-                await update.message.edit_text("Okay! fine 🤬")
+                await update.message.edit_text("Okay! Fine 🤬")
             except:
                 pass
 				
