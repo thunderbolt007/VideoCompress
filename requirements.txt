@@ -4,3 +4,4 @@ psutil
 hachoir
 tgcrypto
 pyrogram
+appdirs
